@@ -18,7 +18,7 @@ filtered_contours = [contour for contour in contours if cv2.contourArea(contour)
 
 for i,contour in enumerate(filtered_contours,0):
     cv2.drawContours(marked, contours, -1, (0,0,255), 2)
-    cv2.putText(marked, str(i), tuple(contour[0][0]), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2)
+    cv2.putText(marked, str(i), tuple(contour[0][0]), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
 
 
 #show images
