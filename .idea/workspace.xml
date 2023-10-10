@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d928f473-1c1a-45f7-bde2-2c8fa1f4b2e8" name="Changes" comment="Res">
+      <change afterPath="$PROJECT_DIR$/Image Equalization &amp; Histogram/histogramEqualization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Image Equalization &amp; Histogram/contrastStreching.py" beforeDir="false" afterPath="$PROJECT_DIR$/Image Equalization &amp; Histogram/contrastStreching.py" afterDir="false" />
     </list>

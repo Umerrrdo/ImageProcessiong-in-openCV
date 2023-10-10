@@ -14,7 +14,7 @@ def contrastStretching(img):
     for i in range(0, img.shape[0]):
         for j in range(0, img.shape[1]):
             new_img[i, j] = (img[i, j] - img_min) * (255 / (img_max - img_min))
-            # print(new_img[i, j]," ",img[i, j])
+            # print("New Image Pixel: ",new_img[i, j],"\tOriginal Image Pixel: ",img[i, j])
     return new_img
 
 #Apply the algorithm to the image
