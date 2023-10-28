@@ -56,6 +56,6 @@ for i in range(1, binaryImage.shape[0] - 1):
 
 # Display the labeled img and the colored result
 cv2.imshow("Original Image", img)
-cv2.imshow("Colored Result", coloredImage)
+cv2.imshow("Labelled Result", coloredImage)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
